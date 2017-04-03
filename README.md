@@ -2,7 +2,7 @@
 
 - fully responsive;
 - Bootstrap;
-- slide for testimonials section;
+- slider for testimonials section;
 - smooth scrolling;
 - animation on scrolling;
 - Google map.
