@@ -1,0 +1,19 @@
+.services {
+  text-align: center;
+}
+.services__item {
+  margin-bottom: 30px;
+  h3 {
+    height: 27px;
+    overflow: hidden;
+  }
+  p {
+    height: 160px;
+    overflow: hidden;
+    text-align: left;
+  }
+}
+.services__icon {
+  color: $dark-slate-gray;
+  font-size: 50px;
+}

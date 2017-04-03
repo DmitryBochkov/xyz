@@ -1,0 +1,22 @@
+.about {
+  padding: 0;
+}
+.article-title {
+  padding-top: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.article-subtitle {
+  margin-bottom: 20px;
+}
+.about__img-wrapper {
+  padding: 0;
+}
+.mission {
+  background-color: $tan;
+  color: $dark-slate-gray;
+}
+.vision {
+  color: $antique-white;
+  background-color: $dark-olive-green;
+}

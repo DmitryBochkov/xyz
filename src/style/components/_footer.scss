@@ -1,0 +1,14 @@
+footer {
+  padding: 30px 0;
+  background-color: $antique-white;
+  text-align: center;
+  .glyphicon {
+    position: relative;
+    font-size: 30px;
+    margin: 20px;
+    color: $dark-slate-gray;
+  }
+  a:hover > .glyphicon {
+    color: lighten($dark-slate-gray, 10);
+  }
+}

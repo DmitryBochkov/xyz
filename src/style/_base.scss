@@ -1,0 +1,23 @@
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: $primary-font;
+  color: #000;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $secondary-font
+}
+section {
+  padding: 60px 0;
+}
+.section-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section-subtitle {
+  margin-bottom: 30px;
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+nav.navbar {
+  margin-bottom: 0;
+  background-color: $dark-slate-gray;
+  color: $antique-white;
+  border: 0;
+  border-radius: 0;
+}
+.navbar-default .navbar-brand {
+  color: $antique-white;
+}
+.navbar-nav > li > a {
+  color: $antique-white !important;
+  text-transform: uppercase;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a {
+  background-color: $antique-white !important;
+  color: $dark-slate-gray !important;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: $antique-white;
+}
+
+@media (min-width: 800px) {
+  nav.navbar {
+    letter-spacing: 1px;
+  }
+}

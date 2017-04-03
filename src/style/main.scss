@@ -1,0 +1,22 @@
+// bootstrap
+@import "bootstrap";
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+//base
+@import "style-variables";
+@import "base";
+
+// custom components
+@import "components/nav";
+@import "components/jumbotron";
+@import "components/about";
+@import "components/services";
+@import "components/works";
+@import "components/testimonials";
+@import "components/pricing";
+@import "components/contacts";
+@import "components/footer";
+@import "components/animation";

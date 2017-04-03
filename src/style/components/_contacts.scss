@@ -1,0 +1,21 @@
+.contacts {
+  padding-bottom: 0;
+  color: $antique-white;
+  background-color: $dark-olive-green;
+  a {
+    color: $antique-white;
+    text-decoration: underline;
+  }
+  form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .contacts {
+    form {
+      padding-top: 0;
+    }
+  }
+}
